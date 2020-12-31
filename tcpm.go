@@ -1,7 +1,8 @@
 package tcpm
 
-import fmt
+import "fmt"
 
-func Hello() {
+func Hello() string {
     fmt.Println("hello 2021")
+    return "Hello 2021"
 }
